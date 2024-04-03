@@ -10,7 +10,7 @@ public class JenkinsApplication {
  
 	@GetMapping("/ping")
 	public String message() {
-		return "Wao!! Application Deployed successfully in SAP Cloud..";
+		return "Welcome";
 	}
 	
 	public static void main(String[] args) {
